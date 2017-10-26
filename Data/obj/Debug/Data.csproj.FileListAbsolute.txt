@@ -1,0 +1,7 @@
+C:\Users\Darkgrey93\Source\Medicaap_\Medicaap\Data\bin\Debug\Data.dll
+C:\Users\Darkgrey93\Source\Medicaap_\Medicaap\Data\bin\Debug\Data.pdb
+C:\Users\Darkgrey93\Source\Medicaap_\Medicaap\Data\bin\Debug\utilitarios.dll
+C:\Users\Darkgrey93\Source\Medicaap_\Medicaap\Data\bin\Debug\utilitarios.pdb
+C:\Users\Darkgrey93\Source\Medicaap_\Medicaap\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\Darkgrey93\Source\Medicaap_\Medicaap\Data\obj\Debug\Data.dll
+C:\Users\Darkgrey93\Source\Medicaap_\Medicaap\Data\obj\Debug\Data.pdb

@@ -1,0 +1,14 @@
+C:\Users\Darkgrey93\Desktop\Medicaap\utilitarios\bin\Debug\utilitarios.dll
+C:\Users\Darkgrey93\Desktop\Medicaap\utilitarios\bin\Debug\utilitarios.pdb
+C:\Users\Darkgrey93\Desktop\Medicaap\utilitarios\obj\Debug\utilitarios.csprojResolveAssemblyReference.cache
+C:\Users\Darkgrey93\Desktop\Medicaap\utilitarios\obj\Debug\utilitarios.dll
+C:\Users\Darkgrey93\Desktop\Medicaap\utilitarios\obj\Debug\utilitarios.pdb
+C:\Users\angie paez\Dropbox\Clinica\Medicaap_def\Medicaap_\utilitarios\bin\Debug\utilitarios.dll
+C:\Users\angie paez\Dropbox\Clinica\Medicaap_def\Medicaap_\utilitarios\bin\Debug\utilitarios.pdb
+C:\Users\angie paez\Dropbox\Clinica\Medicaap_def\Medicaap_\utilitarios\obj\Debug\utilitarios.csprojResolveAssemblyReference.cache
+C:\Users\angie paez\Dropbox\Clinica\Medicaap_def\Medicaap_\utilitarios\obj\Debug\utilitarios.dll
+C:\Users\angie paez\Dropbox\Clinica\Medicaap_def\Medicaap_\utilitarios\obj\Debug\utilitarios.pdb
+C:\Users\Darkgrey93\Source\Medicaap_\Medicaap\utilitarios\bin\Debug\utilitarios.dll
+C:\Users\Darkgrey93\Source\Medicaap_\Medicaap\utilitarios\bin\Debug\utilitarios.pdb
+C:\Users\Darkgrey93\Source\Medicaap_\Medicaap\utilitarios\obj\Debug\utilitarios.dll
+C:\Users\Darkgrey93\Source\Medicaap_\Medicaap\utilitarios\obj\Debug\utilitarios.pdb

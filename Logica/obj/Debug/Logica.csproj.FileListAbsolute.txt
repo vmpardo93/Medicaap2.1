@@ -1,0 +1,32 @@
+C:\Users\Darkgrey93\Desktop\Medicaap\Logica\bin\Debug\Logica.dll
+C:\Users\Darkgrey93\Desktop\Medicaap\Logica\bin\Debug\Logica.pdb
+C:\Users\Darkgrey93\Desktop\Medicaap\Logica\bin\Debug\Data.dll
+C:\Users\Darkgrey93\Desktop\Medicaap\Logica\bin\Debug\utilitarios.dll
+C:\Users\Darkgrey93\Desktop\Medicaap\Logica\bin\Debug\Npgsql.dll
+C:\Users\Darkgrey93\Desktop\Medicaap\Logica\bin\Debug\Data.pdb
+C:\Users\Darkgrey93\Desktop\Medicaap\Logica\bin\Debug\utilitarios.pdb
+C:\Users\Darkgrey93\Desktop\Medicaap\Logica\bin\Debug\Npgsql.pdb
+C:\Users\Darkgrey93\Desktop\Medicaap\Logica\bin\Debug\Npgsql.xml
+C:\Users\Darkgrey93\Desktop\Medicaap\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Darkgrey93\Desktop\Medicaap\Logica\obj\Debug\Logica.dll
+C:\Users\Darkgrey93\Desktop\Medicaap\Logica\obj\Debug\Logica.pdb
+C:\Users\angie paez\Dropbox\Clinica\Medicaap_def\Medicaap_\Logica\bin\Debug\Logica.dll
+C:\Users\angie paez\Dropbox\Clinica\Medicaap_def\Medicaap_\Logica\bin\Debug\Logica.pdb
+C:\Users\angie paez\Dropbox\Clinica\Medicaap_def\Medicaap_\Logica\bin\Debug\Data.dll
+C:\Users\angie paez\Dropbox\Clinica\Medicaap_def\Medicaap_\Logica\bin\Debug\utilitarios.dll
+C:\Users\angie paez\Dropbox\Clinica\Medicaap_def\Medicaap_\Logica\bin\Debug\Npgsql.dll
+C:\Users\angie paez\Dropbox\Clinica\Medicaap_def\Medicaap_\Logica\bin\Debug\Data.pdb
+C:\Users\angie paez\Dropbox\Clinica\Medicaap_def\Medicaap_\Logica\bin\Debug\utilitarios.pdb
+C:\Users\angie paez\Dropbox\Clinica\Medicaap_def\Medicaap_\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\angie paez\Dropbox\Clinica\Medicaap_def\Medicaap_\Logica\obj\Debug\Logica.dll
+C:\Users\angie paez\Dropbox\Clinica\Medicaap_def\Medicaap_\Logica\obj\Debug\Logica.pdb
+C:\Users\Darkgrey93\Source\Medicaap_\Medicaap\Logica\bin\Debug\Logica.dll
+C:\Users\Darkgrey93\Source\Medicaap_\Medicaap\Logica\bin\Debug\Logica.pdb
+C:\Users\Darkgrey93\Source\Medicaap_\Medicaap\Logica\bin\Debug\Data.dll
+C:\Users\Darkgrey93\Source\Medicaap_\Medicaap\Logica\bin\Debug\utilitarios.dll
+C:\Users\Darkgrey93\Source\Medicaap_\Medicaap\Logica\bin\Debug\Npgsql.dll
+C:\Users\Darkgrey93\Source\Medicaap_\Medicaap\Logica\bin\Debug\Data.pdb
+C:\Users\Darkgrey93\Source\Medicaap_\Medicaap\Logica\bin\Debug\utilitarios.pdb
+C:\Users\Darkgrey93\Source\Medicaap_\Medicaap\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\Darkgrey93\Source\Medicaap_\Medicaap\Logica\obj\Debug\Logica.dll
+C:\Users\Darkgrey93\Source\Medicaap_\Medicaap\Logica\obj\Debug\Logica.pdb
