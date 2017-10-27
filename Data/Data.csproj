@@ -44,7 +44,6 @@
   <ItemGroup>
     <Compile Include="DAOidioma.cs" />
     <Compile Include="DAOreportes.cs" />
-    <Compile Include="dataAdapter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

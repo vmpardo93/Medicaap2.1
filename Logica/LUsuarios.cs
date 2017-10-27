@@ -26,20 +26,19 @@ namespace Logica
             if (datos.Rows.Count > 0)
             {
 
-                data.Idrol = int.Parse(datos.Rows[0]["Id_Rol"].ToString());
-                data.Id_usuario = int.Parse(datos.Rows[0]["Id_Usuario"].ToString());
-                data.Nombre = (datos.Rows[0]["nombre"].ToString());
-                data.Apellido = (datos.Rows[0]["apellido"].ToString());
-                data.Username = (datos.Rows[0]["username"].ToString());
-                data.Idrol = int.Parse(datos.Rows[0]["id_rol"].ToString());
-                data.Tipo_de_sangre = (datos.Rows[0]["tipo_de_sangre"].ToString());
-                data.Edad = (datos.Rows[0]["edad"].ToString());
+                data.Idrol = int.Parse(datos.Rows[0]["IdRol"].ToString());
+                data.Id_usuario = int.Parse(datos.Rows[0]["IdUsuario"].ToString());
+                data.Nombre = (datos.Rows[0]["Nombreus"].ToString());
+                data.Apellido = (datos.Rows[0]["Apellido"].ToString());
+                data.Username = (datos.Rows[0]["Username"].ToString());
+                data.Tipo_de_sangre = (datos.Rows[0]["TipoDeSangre"].ToString());
+                data.Edad = (datos.Rows[0]["Edad"].ToString());
                 //data.Especialidad = (datos.Rows[0]["especialidad"].ToString());
                 //data.Fecha_ultimo_examen = (datos.Rows[0]["fecha_de_ultimo_examen"].ToString());
-                data.DireccionImagen = (datos.Rows[0]["imagen"].ToString());
+                data.DireccionImagen = (datos.Rows[0]["Imagen"].ToString());
                 
 
-                if (int.Parse(datos.Rows[0]["Id_Rol"].ToString()) == 1)
+                if (int.Parse(datos.Rows[0]["IdRol"].ToString()) == 1)
                 {
                     
                     data.Mensaje ="<script type='text/javascript'>window.location=\"VerUsuariosAdmon.aspx\"</script>";
