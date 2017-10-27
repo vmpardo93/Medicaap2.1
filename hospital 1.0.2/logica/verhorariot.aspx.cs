@@ -32,7 +32,7 @@ public partial class verhorariot : System.Web.UI.Page
 
         }
         int cultura = int.Parse(Session["idioma"].ToString());
-        Lparametriza param = new Lparametriza();
+        Lidioma param = new Lidioma();
         Hashtable idioma = param.devolverIdioma(cultura, FORMULARIO);
         try
         {

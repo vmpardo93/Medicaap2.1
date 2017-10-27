@@ -19,7 +19,7 @@ public partial class vista_MasterAdminVic : System.Web.UI.MasterPage
         String nombre = Session["user"] as String;
         Object nomb = Session["objdata"] as Object;
         int cultura = int.Parse(Session["idioma"].ToString());
-        Lparametriza param = new Lparametriza();
+        Lidioma param = new Lidioma();
         Hashtable idioma = param.devolverIdioma(cultura, FORMULARIO);
         try
         {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Data;
+using DataPersis;
 using utilitarios;
 
 namespace Logica
@@ -12,7 +12,7 @@ namespace Logica
     {
         public void registromedicina(string medicina) 
         {
-            DAOmedicinas bases = new DAOmedicinas();
+            DAOmedicina bases = new DAOmedicina();
             Umedicina datos = new Umedicina();
             datos.Medicina = medicina;
             bases.guardarmedicina(datos);

@@ -8,7 +8,7 @@
         <asp:DropDownList ID="DD_Idioma" runat="server" DataSourceID="ObjectDataSource1" DataTextField="nombre" DataValueField="id_idioma" OnSelectedIndexChanged="DD_Idioma_SelectedIndexChanged" AutoPostBack="True">
             <asp:ListItem Value="1">Español</asp:ListItem>
         </asp:DropDownList>
-        <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" SelectMethod="buscaidiomas" TypeName="Logica.Lparametriza"></asp:ObjectDataSource>
+        <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" SelectMethod="buscaidiomas" TypeName="Logica.Lidioma" OnSelecting="ObjectDataSource1_Selecting"></asp:ObjectDataSource>
         <br />
         <div class="col-md-12">
             <div id="carousel-1" class="carousel slide" data-ride="carousel">

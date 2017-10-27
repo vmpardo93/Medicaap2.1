@@ -8,6 +8,20 @@ namespace utilitarios
 {
     public class Ucitas
     {
+        private DateTime fechacita;
+
+        public DateTime Fechacita
+        {
+            get { return fechacita; }
+            set { fechacita = value; }
+        }
+        private int idpaciente;
+
+        public int Idpaciente
+        {
+            get { return idpaciente; }
+            set { idpaciente = value; }
+        }
         private bool ver;
 
         public bool Ver

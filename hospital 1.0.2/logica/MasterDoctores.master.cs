@@ -25,7 +25,7 @@ public partial class MasterDoctores : System.Web.UI.MasterPage
         Im_Perfil.ImageUrl = user.DireccionImagen;
         Response.Cache.SetNoStore();
         int cultura = int.Parse(Session["idioma"].ToString());
-        Lparametriza param = new Lparametriza();
+        Lidioma param = new Lidioma();
         Hashtable idioma = param.devolverIdioma(cultura, FORMULARIO);
         try
         {

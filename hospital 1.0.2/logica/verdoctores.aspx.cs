@@ -19,7 +19,7 @@ public partial class vista_verdoctores : System.Web.UI.Page
         datos = user.ValidarSesionAdmin(Session["rol_user"].ToString(), Session["user"].ToString());
         this.RegisterStartupScript("mensaje", datos.Mensaje);
         int cultura = int.Parse(Session["idioma"].ToString());
-        Lparametriza param = new Lparametriza();
+        Lidioma param = new Lidioma();
         Hashtable idioma = param.devolverIdioma(cultura, FORMULARIO);
         try
         {

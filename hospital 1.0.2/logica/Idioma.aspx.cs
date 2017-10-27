@@ -18,7 +18,7 @@ public partial class vista_Idioma : System.Web.UI.Page
 
     protected void Button1_Click(object sender, EventArgs e)
     {
-        Lparametriza parametro = new Lparametriza();   
+        Lidioma parametro = new Lidioma();   
         String idioma = TB_Idioma.Text;
         String terminacion = TB_Terminacion.Text;
         parametro.agregaridioma(idioma, terminacion);
@@ -30,7 +30,7 @@ public partial class vista_Idioma : System.Web.UI.Page
         int id_formulario = int.Parse(DDL_Formularios.SelectedValue.ToString());
         string componentes = DDL_Componentes.SelectedItem.ToString();
         string traduccion = TB_Ncomponentes.Text;
-        Lparametriza parametro = new Lparametriza();
+        Lidioma parametro = new Lidioma();
         parametro.agregartraduccion(id_idioma, id_formulario, componentes, traduccion);
 
     }
@@ -41,7 +41,7 @@ public partial class vista_Idioma : System.Web.UI.Page
         int id_idioma = int.Parse(DDL_Idioma.SelectedValue.ToString());
         int id_formulario = int.Parse(DDL_Formularios.SelectedValue.ToString());
         string componente = DDL_Componentes.SelectedItem.ToString();
-        Lparametriza parametro = new Lparametriza();
+        Lidioma parametro = new Lidioma();
         DataTable texto = parametro.cargartraduccion(id_idioma,id_formulario,componente);
         String traduccion="";
         try

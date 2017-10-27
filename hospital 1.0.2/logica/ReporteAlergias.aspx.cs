@@ -6,7 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data;
 using Logica;
-using Data;
+using DataPersis;
 using System.Collections;
 using utilitarios;
 
@@ -21,7 +21,7 @@ public partial class vista_ReporteAlergias : System.Web.UI.Page
     {
         DataSet datos = new DataSet();
 
-        Lpacientes logica = new Lpacientes();
+        Lreportes logica = new Lreportes();
         DataTable resultado = logica.buscaralergiareporte((int.Parse(Session["id_user"].ToString())));
         try
         {

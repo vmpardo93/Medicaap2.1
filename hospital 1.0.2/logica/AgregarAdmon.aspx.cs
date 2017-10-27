@@ -22,7 +22,7 @@ public partial class vista_AgregarAdmon : System.Web.UI.Page
         Response.Cache.SetAllowResponseInBrowserHistory(false);
         Response.Cache.SetNoStore();
         int cultura = int.Parse(Session["idioma"].ToString());
-        Lparametriza param = new Lparametriza();
+        Lidioma param = new Lidioma();
         Hashtable idioma = param.devolverIdioma(cultura, FORMULARIO);
         try
         {
@@ -97,7 +97,6 @@ public partial class vista_AgregarAdmon : System.Web.UI.Page
         String duraci = duracion.SelectedValue;
 
         Lparametriza logica = new Lparametriza();
-        logica.parametrizacitas(duraci, hora_inicio, hora_fin); 
 
         e.NewValues.Add("duracion_citas", duraci);
         e.NewValues.Add("hora_inicio", hora_inicio);

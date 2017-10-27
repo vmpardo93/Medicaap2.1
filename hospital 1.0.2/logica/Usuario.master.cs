@@ -22,7 +22,7 @@ public partial class vista_Usuario : System.Web.UI.MasterPage
         
         Im_Perfil.ImageUrl = user.DireccionImagen;
         int cultura = int.Parse(Session["idioma"].ToString());
-        Lparametriza param = new Lparametriza();
+        Lidioma param = new Lidioma();
         Hashtable idioma = param.devolverIdioma(cultura, FORMULARIO);
         try
         {

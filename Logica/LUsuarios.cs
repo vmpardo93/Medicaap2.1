@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using utilitarios;
-using Data;
+using DataPersis;
 using System.Data;
 
 namespace Logica
@@ -13,7 +13,7 @@ namespace Logica
     {
         public UUsuario loggin(String user, String pass)
         {
-            DAOusuarios users = new DAOusuarios();
+            DAOusuario users = new DAOusuario();
             UUsuario data = new UUsuario();
             IpMac dirrec = new IpMac();
 

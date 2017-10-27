@@ -21,7 +21,7 @@ public partial class vista_InicioP : System.Web.UI.Page
     protected void DD_Idioma_SelectedIndexChanged(object sender, EventArgs e)
     {
         int cultura = int.Parse(DD_Idioma.SelectedValue);
-        Lparametriza param = new Lparametriza();
+        Lidioma param = new Lidioma();
         String terminacion=param.selecionarcultura(cultura);
         Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture(terminacion);
         Thread.CurrentThread.CurrentUICulture = new CultureInfo(terminacion);
@@ -38,4 +38,5 @@ public partial class vista_InicioP : System.Web.UI.Page
         //Response.Redirect("Inicio.aspx");
         
     }
+
 }

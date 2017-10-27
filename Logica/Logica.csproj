@@ -48,13 +48,19 @@
     <Compile Include="LDoctor.cs" />
     <Compile Include="Lhojavida.cs" />
     <Compile Include="Lhorario.cs" />
+    <Compile Include="Lidioma.cs" />
     <Compile Include="Lmedicinas.cs" />
     <Compile Include="Lpacientes.cs" />
     <Compile Include="Lparametriza.cs" />
+    <Compile Include="Lreportes.cs" />
     <Compile Include="LUsuarios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DataPersis\DataPersis.csproj">
+      <Project>{c2763f8d-89d5-475e-828d-1b2aff033002}</Project>
+      <Name>DataPersis</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Data\Data.csproj">
       <Project>{7007fe0d-be6e-4ae7-9598-6e16bb9f741d}</Project>
       <Name>Data</Name>

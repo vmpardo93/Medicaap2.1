@@ -20,7 +20,7 @@ public partial class vista_CancelarCitas : System.Web.UI.Page
         datos = user.ValidarSesionPaci(Session["rol_user"].ToString(), Session["user"].ToString());
         this.RegisterStartupScript("mensaje", datos.Mensaje);
         int cultura = int.Parse(Session["idioma"].ToString());
-        Lparametriza param = new Lparametriza();
+        Lidioma param = new Lidioma();
         Hashtable idioma = param.devolverIdioma(cultura, FORMULARIO);
         try
         {

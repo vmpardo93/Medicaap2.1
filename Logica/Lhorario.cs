@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using utilitarios;
-using Data;
+using DataPersis;
 
 namespace Logica
 {
@@ -36,14 +36,14 @@ namespace Logica
             }
             return datos;
         }
-        public Uhorario guardarhorario(String inicio, String fin,Hashtable chequeo, String iddoctor,Dictionary<string,string> horasini, Dictionary<string,string>horafin) 
+        public Uhorario guardarhorario(String inicio, String fin, Hashtable chequeo, String iddoctor, Dictionary<string, string> horasini, Dictionary<string, string> horafin)
         {
             Uhorario datos = new Uhorario();
-            DAOhorario bases = new DAOhorario();
+            DAOhorarios bases = new DAOhorarios();
             datos.Inicio = inicio;
             datos.Fin = fin;
             datos.Iddoctor = iddoctor;
-            object lunes= chequeo["Lunes"];
+            object lunes = chequeo["Lunes"];
             object martes = chequeo["Martes"];
             object miercoles = chequeo["Miercoles"];
             object jueves = chequeo["Jueves"];
@@ -52,7 +52,7 @@ namespace Logica
             object domingo = chequeo["Domingo"];
             try
             {
-                if (Convert.ToDateTime(inicio) < Convert.ToDateTime(fin) && Convert.ToDateTime(inicio) > DateTime.Now && Convert.ToDateTime(fin)>DateTime.Now)
+                if (Convert.ToDateTime(inicio) < Convert.ToDateTime(fin) && Convert.ToDateTime(inicio) > DateTime.Now && Convert.ToDateTime(fin) > DateTime.Now)
                 {
                     if (lunes.Equals(true))
                     {
@@ -144,7 +144,7 @@ namespace Logica
                                 datos.Mensaje = "<script type='text/javascript'>alert('debe seleccionar un hora de inicio menor a la hora fin')</script>";
                             }
                         }
-                        else 
+                        else
                         {
                             datos.Mensaje = "<script type='text/javascript'>alert('debe seleccionar una hora de inicio y fin para el viernes')</script>";
 
@@ -199,6 +199,24 @@ namespace Logica
                 datos.Mensaje = ex.Message;
             }
             return datos;
+        }
+        public DataTable mostrarhorario(string DoctorId)
+        {
+            DAOhorarios dao = new DAOhorarios();
+            Uhorario datos = new Uhorario();
+            datos.Iddoctor = DoctorId;
+            return dao.mostrarhorario(datos);
+        }
+        public void editarhorario(string DoctorId, string HoraInicio, string HoraFin, string Dia, string IdUsuario)
+        {
+            DAOhorarios dao = new DAOhorarios();
+            Uhorario datos = new Uhorario();
+            datos.Iddoctor = DoctorId;
+            datos.Inicio = HoraInicio;
+            datos.Fin = HoraFin;
+            datos.Horario = Dia;
+            datos.Iddoctor = IdUsuario;
+            dao.editarhorario(datos);
         }
     }
 }
